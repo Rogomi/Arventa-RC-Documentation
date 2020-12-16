@@ -1,6 +1,6 @@
 [Back](../README.md)
 
-# **Arventa Connect**
+# **Arventa Connect iOS**
 ## Technical Documentation
 
 
