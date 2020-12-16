@@ -1,4 +1,5 @@
 # Arventa-RC-Documentation
 
-## [Android Documentation](android/android-docs.md)
+## [Android Documentation](Android/index.md)
+
 ## [iOS Documentation](iOS/iOS-docs.md)
