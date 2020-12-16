@@ -32,19 +32,22 @@ We also use iOS Simulator in order to test the apps in different screen sizes an
 
 
 ### **WEB API**
-https://www.arventa.com.au/authservice
+[https://www.arventa.com.au/authservice](https://www.arventa.com.au/authservice)
 
-https://www.arventa.com.au/userservice
+[https://www.arventa.com.au/userservice](https://www.arventa.com.au/userservice)
 
 The authservice is used for authentication purposes and the userservice is used to retrieve and push data to the server. We are using Postman to test the web API endpoints in order to determine which endpoints are properly working and have bugs.
 
 
 ### **APPLICATION ARCHITECTURE**
 The project uses an offline-first approach and does the syncing of local data with the server data on the background. This is to allow the continuous usage of the app while offline without interruptions.
-
+![Sync Glossary](images/image1.jpg)
+![Syncing Triggers](images/image3.jpg)
+![Syncing From Local to Server](images/image4.jpg)
+![Syncing From Server to Local](images/image5.jpg)
 
 ### **THIRD PARTY LIBRARIES**
-Most of the third party libraries are installed using CocoaPods. They can be added by searching library names found in https://cocoapods.org/, inserting them in the Podfile and running the pod install command in the Terminal.
+Most of the third party libraries are installed using CocoaPods. They can be added by searching library names found in [https://cocoapods.org/](https://cocoapods.org/), inserting them in the Podfile and running the pod install command in the Terminal.
 
 #### **Important Libraries**
 SQLCipher - an encrypted version of SQLite for the app’s DBMS.
